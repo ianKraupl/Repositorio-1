@@ -1,0 +1,84 @@
+#titulo {
+    color:cornflowerblue
+}
+#titulo {
+    font-variant: small-caps;
+}
+#titulo {
+    font-family: 'Finlandica', sans-serif;
+    background-color:rgba(0,0,0,0.8)
+}
+#titulo {
+    margin: 10px;
+    padding: 30px 100px;
+    border:8px red groove;
+    height: 40px;
+    width: 500px;
+    outline: 5px solid black;
+}
+#titulo {
+    text-align: center;
+}
+p.edad {
+    color:brown
+}
+p.edad {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.edad {
+    font-style: oblique;
+}
+p.edad {
+    font-variant: small-caps;
+}
+p.domicilio {
+    font-style: italic;
+}
+p.domicilio {
+    color:dodgerblue
+}
+p.domicilio {
+    border:5px darkgrey groove;
+}
+p.domicilio {
+    text-align: center;
+}
+p.series {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p.series {
+    color:darkolivegreen
+}
+p.series {
+    text-shadow: 2px 2px 3px cyan;
+}
+p.peliculas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p.peliculas {
+    color:darkslategrey
+}
+p.peliculas {
+    text-decoration: underline;
+}
+p.peliculas {
+    font-family: 'Finlandica', sans-serif;
+}
+p.perfil {
+    color:blanchedalmond
+}
+p.perfil {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p.perfil {
+    fill-opacity: initial;
+}
+p.perfil {
+    background-color:red;
+}
+a:link {
+    color:blueviolet
+}
+a:visited {
+    color:chartreuse
+}

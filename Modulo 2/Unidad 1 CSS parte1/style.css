@@ -32,10 +32,6 @@ p.edad {
     font-variant: small-caps;
 }
 p.domicilio {
-    background: linear-gradient(to bottom, green, white);
-    border-radius: 40px;
-}
-p.domicilio {
     font-style: italic;
 }
 p.domicilio {
@@ -68,9 +64,8 @@ p.peliculas {
 p.peliculas {
     font-family: 'Finlandica', sans-serif;
 }
-
 p.perfil {
-    color:dodgerblue
+    color:blanchedalmond
 }
 p.perfil {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -79,23 +74,11 @@ p.perfil {
     fill-opacity: initial;
 }
 p.perfil {
-    text-align: center;
-    box-shadow: 0 0 10px #349;
-    border-radius: 20px 20px 10px 10px;
+    background-color:red;
 }
 a:link {
     color:blueviolet
 }
 a:visited {
     color:chartreuse
-}
-p.columnas {
-    column-count: 8;
-    column-gap: 30px;
-}
-header i {
-    font-size: 80px;
-    margin: 0 18px;
-    align-self: center;
-
 }

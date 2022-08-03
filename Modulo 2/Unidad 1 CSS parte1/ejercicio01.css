@@ -1,0 +1,33 @@
+.caja{
+    width: 300px;
+    background: #0009ff;
+        background: linear-gradient(316deg, #0009ff 0%, #00ff00 80%);
+        background: -webkit-linear-gradient(316deg, #0009ff 0%, #00ff00 80%);
+        background: -moz-linear-gradient(316deg, #0009ff 0%, #00ff00 80%);
+        box-shadow: 2px 2px cornflowerblue;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 56px 55px 55px 55px;
+            -webkit-border-radius: 56px 55px 55px 55px;
+            -moz-border-radius: 56px 55px 55px 55px;
+            border: 7px outset #8ad0e4;
+}
+img{
+    border-radius: 30%;
+}
+
+.texto{
+    background-color: cyan;
+    padding: 10px;
+    /* count significa cantidad de columnas*/
+    column-count: 3;
+    /*gap significa la separacion de los elementos*/
+    column-gap: 50px;
+    /* rule significa separacion de columnas*/
+    column-rule: 5px solid black;
+}
+
+.texto p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}

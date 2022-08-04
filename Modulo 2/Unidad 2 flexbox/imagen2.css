@@ -1,0 +1,49 @@
+.contenedor {
+    border: 1px solid black;
+    height: 500px;
+    width: 40%;
+    margin: 30px;
+    padding: 0px;
+    /* background-color: blue; */
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 280px;
+    height: 200px;
+    /* margin: 10px; */
+    font-size: 40px;
+}
+
+.caja2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 280px;
+    height: 200px;
+    /* margin: 10px; */
+    font-size: 40px;
+}
+
+.caja3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 280px;
+    height: 200px;
+    /* margin: 10px; */
+    font-size: 40px;
+}

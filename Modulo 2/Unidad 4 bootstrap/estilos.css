@@ -1,0 +1,20 @@
+.container {
+    background-color: lightcyan;
+}
+
+.container-fluid {
+    background-color: lightseagreen;
+}
+
+blockquote {
+    background-color: lightslategrey;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* .image {
+    display: flex;   
+    height: 280px;
+} */

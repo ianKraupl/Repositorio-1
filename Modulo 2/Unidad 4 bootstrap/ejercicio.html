@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+</head>
+
+<body>
+    <div class="shadow p-3 mb-5 bg-body rounded">
+        <h3>Distintos contenidos de bootstrap</h3>
+    </div>
+    <div class="container">
+        <div class="col">
+            <p class="text-info bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusamus
+                consequatur voluptatem rerum ea blanditiis laboriosam aspernatur, in debitis fuga sunt officiis?
+                Suscipit obcaecati impedit laboriosam est repellendus a repudiandae.Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Veniam officiis quos quisquam
+                sequi accusantium atque cum facilis quas, explicabo consequatur quod eos perferendis exercitationem
+                possimus labore dignissimos voluptatum, fuga natus!</p>
+
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic exercitationem commodi incidunt nihil
+                    est aliquid sequi reiciendis. Aut earum deleniti pariatur voluptatum in assumenda recusandae debitis
+                    itaque amet? Ullam, odio!</p>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <p class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam officiis quos quisquam
+                sequi accusantium atque cum facilis quas, explicabo consequatur quod eos perferendis exercitationem
+                possimus labore dignissimos voluptatum, fuga natus!Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Veniam officiis quos quisquam
+                sequi accusantium atque cum facilis quas, explicabo consequatur quod eos perferendis exercitationem
+                possimus labore dignissimos voluptatum, fuga natus!Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Veniam officiis quos quisquam
+                sequi accusantium atque cum facilis quas, explicabo consequatur quod eos perferendis exercitationem
+                possimus labore dignissimos voluptatum, fuga natus!</p>
+        </div>
+
+        <div class="image">
+            <img src="elefante.jpg" class="rounded float-start" alt="elefante">
+        </div>
+        <img src="https://via.placeholder.com/280x200" class="rounded float-start" alt="elefante">
+        <table class="table table-dark">
+            <tbody>
+                <tr class="table-active">
+                    <th scope="row">1</th>
+                    <td colspan="2" class="table-striped">Ian</td>
+                    <td>@facebook</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td colspan="2" class="table-striped">Marcos</td>
+                    <td>@instragram</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2" class="table-active">Pachi</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">About us</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Visit
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+    </div>
+
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+
+
+</body>
+
+</html>
